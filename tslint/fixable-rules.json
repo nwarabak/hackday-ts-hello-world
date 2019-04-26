@@ -1,0 +1,85 @@
+{
+    "rules": {
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+        "eofline": true,
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        "no-consecutive-blank-lines": true,
+        "no-trailing-whitespace": true,
+        "one-line": [
+            true,
+            "check-open-brace",
+            "check-catch",
+            "check-else",
+            "check-finally",
+            "check-whitespace"
+        ],
+        "prefer-const": true,
+        "no-return-await": true,
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape"
+        ],
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "always",
+                "singleline": "never"
+            }
+        ],
+        "typedef-whitespace": [
+            true,
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            },
+            {
+                "call-signature": "space",
+                "index-signature": "space",
+                "parameter": "space",
+                "property-declaration": "space",
+                "variable-declaration": "space"
+            }
+        ],
+        "ordered-imports": [
+            true,
+            {
+                "import-sources-order": "lowercase-last",
+                "grouped-imports": true,
+                "named-imports-order": "lowercase-last",
+                "module-source-path": "full"
+            }
+        ],
+        "space-within-parens": true,
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-module",
+            "check-separator",
+            "check-rest-spread",
+            "check-type",
+            "check-typecast",
+            "check-type-operator",
+            "check-preblock"
+        ],
+        "object-literal-shorthand": true,
+        "arrow-return-shorthand": [true, "multiline"],
+        "arrow-parens": [true, "ban-single-arg-parens"]
+    }
+}

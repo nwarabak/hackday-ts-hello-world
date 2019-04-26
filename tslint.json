@@ -1,0 +1,7 @@
+{
+    "extends": [
+        "./tslint/custom-rules.json",
+        "./tslint/no-fix-rules.json",
+        "./tslint/fixable-rules.json"
+    ]
+}

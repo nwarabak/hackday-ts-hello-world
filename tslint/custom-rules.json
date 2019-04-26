@@ -1,0 +1,13 @@
+{
+    "rulesDirectory": "custom_rules",
+    "rules": {
+        "ban-imports": [
+            true,
+            {"moduleName": "@gamechanger/metrics", "rationale": "use global/utilities/metrics instead"},
+            {"moduleName": "tape", "rationale": "use blue-tape instead"}
+        ],
+        "queueable-class": true,
+        "import-star-capitalized": true,
+        "data-pipeline-event-class": true
+    }
+}

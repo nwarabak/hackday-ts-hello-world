@@ -1,0 +1,68 @@
+ {
+    "rules": {
+        "ban": [
+            true,
+            [ "$", "each" ],
+            [ "angular", "forEach" ],
+            [ "t", "equals" ],
+            [ "t", "deepEquals" ],
+            [ "t", "assert" ],
+            [ "t", "ok" ],
+            [ "t", "true" ],
+            { "name": ["Tape", "only"], "message": "Please remove .only to ensure all tests are run" },
+            { "name": "getEnvString", "message": "Use config variables defined directly in config module instead, unless writing a one-off script" },
+            { "name": "getEnvNumber", "message": "Use config variables defined directly in config module instead, unless writing a one-off script" },
+            { "name": "getEnvBoolean", "message": "Use config variables defined directly in config module instead, unless writing a one-off script" }
+        ],
+        "class-name": true,
+        "jsdoc-format": true,
+        "member-access": true,
+        "new-parens": true,
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-conditional-assignment": true,
+        "no-construct": true,
+        "no-debugger": true,
+        "no-duplicate-imports": true,
+        "no-duplicate-variable": true,
+        "no-empty": true,
+        "no-eval": true,
+        "no-internal-module": true,
+        "no-invalid-this": false,
+        "no-reference": true,
+        "no-require-imports": true,
+        "no-shadowed-variable": true,
+        "no-switch-case-fall-through": true,
+        "no-unused-expression": true,
+        "no-var-requires": true,
+        "one-variable-per-declaration": [
+            true,
+            "ignore-for-loop"
+        ],
+        "only-arrow-functions": [
+            true,
+            "allow-declarations"
+        ],
+        "radix": true,
+        "switch-default": true,
+        "triple-equals": true,
+        "typedef": [
+            true,
+            "parameter",
+            "property-declaration"
+        ],
+        "use-isnan": true,
+        "variable-name": [
+            true,
+            "check-format",
+            "allow-leading-underscore",
+            "ban-keywords"
+        ],
+        "curly": true,
+        "no-angle-bracket-type-assertion": true,
+        "promise-function-async": true,
+        "no-floating-promises": true,
+        "no-unused-variable": [true, "check-parameters", {"ignore-pattern": "^_"}],
+        "no-var-keyword": true
+    }
+}
